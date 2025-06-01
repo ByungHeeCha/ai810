@@ -21,21 +21,11 @@ bibliography: 2025-06-01-crystalformer.bib
 #   - please use this format rather than manually creating a markdown table of contents.
 toc:
     - name: Introduction
-    - name: Method
-    - name: Experiments
-      subsections:
-      - name: Python (Code) Concept
-      - name: Language Concept
-        subsections:
-        - name: French Concept
-        - name: Simplfied/Traditional Chinese Concept
-        - name: Arabic Concept
-      - name: Areas where CAV Excels and Does Not
-    - name: Discussion
-      subsections:
-      - name: Is PSA-induced CAV the same as IT-induced?
-      - name: Can expand to multi-behavior steering?
-    - name: Conclusion
+    - name: Preliminaries
+    - name: CRYSTALFORMER
+    - name: Experimental Results
+    - name: Discussion and Limitations
+    - name: Conclusions
 
 
 # Below is an example of injecting additional post-specific styles.
