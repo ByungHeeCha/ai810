@@ -66,7 +66,7 @@ AI for structural biology has a big-data problem. Simply put, there is a lack of
 
 Molecular dynamics (MD) simulations can sample the conformational dynamics of molecular systems, but are constrained by sampling inefficiencies and the need for prohibitively long timescales. Addressing these limitations is essential to designing drugs that effectively modulate a protein's function. Luckily, for physical systems such as molecules we have access to more information than just data to train generative models:
 
-{% twitter https://x.com/adrian_roitberg/status/1793676191620018398 %}
+<!-- {% twitter https://x.com/adrian_roitberg/status/1793676191620018398 %} -->
 
 Yes that’s right, we know that for physical systems (molecules), the distribution of states (conformers) are characterized by their energy according the boltzmann distribution $$p(x) \propto exp(-\beta (\mathcal{E}(x)))$$, where $$\mathcal{E}(x)$$ is the energy of the state and $$\beta$$ is a constant dependant on temperature. This motivates a paradigm of training generative models that can take advantage of the energy function. 
 
@@ -239,7 +239,7 @@ The table above contains the mean and std deviation of the W2 metrics vs the tes
 
 The fact that this system is just in 2 dimensions makes sampling from the distribution very easy; random sampling from a uniform prior and reweighting does the job, so it should not be considered a valid robust benchmark system for deep learning models for future works: 
 
-{% twitter https://x.com/FrankNoeBerlin/status/1829602620006416722%}
+<!-- {% twitter https://x.com/FrankNoeBerlin/status/1829602620006416722%} -->
 
 ## Establishing new baselines for DW4, LJ13 and LJ55 with very long simulations
 
